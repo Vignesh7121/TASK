@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visura Infotech - Professional Real Estate Photo Editing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Visura<span>Infotech</span></div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Transform Your Real Estate Photos</h1>
+            <p>Professional photo editing services to make your property listings stand out. Fast turnaround, competitive pricing, and exceptional quality for real estate professionals.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <!-- Service Cards -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.ibb.co/k6c6LNc7/Interiors-1.jpg" alt="Basic Photo Enhancement">
+                    </div>
+                    <div class="service-content">
+                        <h3>Basic Photo Enhancement</h3>
+                        <p>Color correction, exposure adjustment, and white balance to make your photos look natural and appealing.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sky Replacement">
+                    </div>
+                    <div class="service-content">
+                        <h3>Sky Replacement</h3>
+                        <p>Transform dull or overcast skies into beautiful blue skies with fluffy clouds or dramatic sunsets.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Virtual Staging">
+                    </div>
+                    <div class="service-content">
+                        <h3>Virtual Staging</h3>
+                        <p>Showcase the potential of empty rooms with realistic furniture and decor placement.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.ibb.co/tPPbnhPL/SAVE-20250623-185833.jpg" alt="HDR Blending">
+                    </div>
+                    <div class="service-content">
+                        <h3>HDR Blending</h3>
+                        <p>Combine multiple exposures to create perfectly balanced images with detail in shadows and highlights.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.ibb.co/fzPCfzB0/Day-to-Dusk-1.jpg" alt="Twilight Conversion">
+                    </div>
+                    <div class="service-content">
+                        <h3>Twilight Conversion</h3>
+                        <p>Convert daytime exterior shots into stunning twilight images with warm interior lighting.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.ibb.co/CSxGHrV/SAVE-20250623-185949.jpg" alt="Object Removal">
+                    </div>
+                    <div class="service-content">
+                        <h3>Object Removal</h3>
+                        <p>Remove unwanted objects, people, or distractions from your property photos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="portfolio-grid">
+                <!-- Before/After Comparison -->
+                <div class="comparison-container">
+                    <img src="https://i.ibb.co/HDxZNzps/IMG-20250618-182107-915.jpg" alt="After" class="comparison-image">
+                    <div class="before-image">
+                        <img src="https://i.ibb.co/nNM48bwj/IMG-20250623-193130-979.jpg" alt="Before" class="comparison-image">
+                    </div>
+                    <div class="comparison-slider"></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://i.ibb.co/whfZY6bT/HDR-1.jpg" alt="Virtual Staging Example">
+                    <div class="portfolio-overlay">
+                        <h3>Virtual Staging</h3>
+                        <p>Empty room transformed into an inviting living space with virtual furniture.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://i.ibb.co/fzPCfzB0/Day-to-Dusk-1.jpg" alt="Twilight Conversion Example">
+                    <div class="portfolio-overlay">
+                        <h3>Twilight Magic</h3>
+                        <p>Daytime exterior converted to a warm, inviting twilight scene.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Trusted Real Estate Photo Editing Partner</h3>
+                    <p>At Visura Infotech, we specialize in transforming ordinary real estate photos into stunning marketing assets. Our team of skilled editors understands what it takes to make properties look their absolute best.</p>
+                    <p>With years of experience serving real estate professionals across the globe, we've perfected our editing techniques to highlight the best features of every property while maintaining a natural, appealing look.</p>
+                    <p>We pride ourselves on quick turnaround times, competitive pricing, and consistent high-quality results that help our clients sell properties faster and at better prices.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Our Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> visurainfotech@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 95145 80455 &amp; +91 86810 19375</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 6/368, 1st Floor, Shanmugam Nagar<br>Dhadagapatty, Salem - 636006, TN, India</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Customer support</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/visura_infotech?igsh=MTVpdXp5MGtrN2xsaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div id="successMessage" class="success-message">
+                        Thank you! Your message has been sent successfully.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo">Visura<span>Infotech</span></div>
+            <p>&copy; 2025 Visura Infotech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
